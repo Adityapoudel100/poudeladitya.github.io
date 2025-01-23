@@ -2,7 +2,7 @@
 <head>
 <title>Aditya Poudel</title>
 </head>
-<body style="backgroundcolor:blue";>
+<body>
 <h1> Page Under Construction</h1>
 
 
