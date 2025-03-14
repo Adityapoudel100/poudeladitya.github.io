@@ -10,8 +10,8 @@
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #183577;
-            color: #333;
+            background-color: #183577; /* Updated background color */
+            color: #ffffff; /* Updated text color for better contrast */
             line-height: 1.6;
         }
 
@@ -52,6 +52,7 @@
             color: #fff;
             height: 100vh;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             text-align: center;
@@ -62,6 +63,12 @@
         .hero-content {
             max-width: 600px;
             z-index: 10;
+        }
+
+        .hero-content img {
+            width: 150px; /* Adjust the size as needed */
+            border-radius: 50%; /* Make the image circular */
+            margin-bottom: 1rem;
         }
 
         .hero-content h1 {
@@ -115,53 +122,41 @@
             margin: 0.5rem 0;
         }
 
-        #experience .experience-item {
-            background-color: #fff;
+        #experience .experience-item, #education .education-item {
+            background-color: #ffffff; /* White background for experience and education items */
+            color: #000000; /* Black text color for experience and education items */
             padding: 1rem;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             margin-bottom: 1rem;
         }
 
-        #experience .experience-item h3 {
+        #experience .experience-item h3, #education .education-item h3 {
             font-size: 1.5rem;
             margin-bottom: 0.5rem;
         }
 
-        #experience .experience-item p {
+        #experience .experience-item p, #education .education-item p {
             font-size: 1rem;
             margin-bottom: 1rem;
         }
 
-        #contact form {
-            max-width: 400px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 1rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        #contact {
+            background-color: #ffffff; /* White background for contact section */
+            color: #000000; /* Black text color for contact section */
+            padding: 2rem;
+            text-align: center;
         }
 
-        #contact form input, #contact form textarea {
-            width: 100%;
-            padding: 0.5rem;
+        #contact h2 {
+            font-size: 2rem;
             margin-bottom: 1rem;
-            border: 1px solid #ddd;
-            border-radius: 5px;
+            font-weight: bold;
         }
 
-        #contact form button {
-            background-color: #333;
-            color: #fff;
-            padding: 0.5rem 1rem;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        #contact form button:hover {
-            background-color: #ff6347;
+        #contact p {
+            font-size: 1.1rem;
+            margin: 0.5rem 0;
         }
 
         footer {
@@ -201,8 +196,8 @@
                 font-size: 1.5rem;
             }
 
-            #contact form {
-                max-width: 100%;
+            #contact {
+                padding: 1rem;
             }
         }
     </style>
@@ -222,6 +217,7 @@
 
     <section id="hero">
         <div class="hero-content">
+            <img src="path_to_your_image.jpg" alt="Aditya Poudel">
             <h1>Aditya Poudel</h1>
             <p>Admin and Operations Manager</p>
             <a href="resume.pdf" download class="btn">Download Resume</a>
@@ -264,4 +260,12 @@
         <div class="education-item">
             <h3>Rehdon Higher Secondary School</h3>
             <p>+2, Biology, General</p>
-            <p>August 20
+            <p>August 2015 - June 2017</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Details</h2>
+        <p><strong>Mail:</strong> adityapoudel100@gmail.com</p>
+        <p><strong>Phone Number:</strong> 9843704593</p>
+        <p><strong>Address:</strong> Banasthali, Kathmandu
