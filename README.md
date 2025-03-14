@@ -235,7 +235,7 @@ s0.parentNode.insertBefore(s1,s0);
 
     <section id="hero">
         <div class="hero-content">
-            <img src="path_to_your_image.jpg" alt="Aditya Poudel">
+            <img src="![Alt Text](main/ Pwrsonal Photo.jpg)" alt="Aditya Poudel">
             <h1>Aditya Poudel</h1>
             <p>Admin and Operations Manager</p>
             <a href="resume.pdf" download class="btn">Download Resume</a>
