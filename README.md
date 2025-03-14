@@ -1,35 +1,16 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aditya Poudel - Admin and Operations Manager</title>
-
-      <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/67cfd86f4821b71909b51c2c/1im1uatd6';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
     <style>
-        /* CSS Styles */
-
-        div.tawk-card > div {
-            display: none !important; 
-        }
-        
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #183577; /* Updated background color */
-            color: #ffffff; /* Updated text color for better contrast */
+            background-color: #183577;
+            color: #ffffff;
             line-height: 1.6;
         }
 
@@ -41,6 +22,7 @@ s0.parentNode.insertBefore(s1,s0);
             position: fixed;
             width: 100%;
             z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
 
         header nav ul {
@@ -66,7 +48,7 @@ s0.parentNode.insertBefore(s1,s0);
         }
 
         #hero {
-            background: url('hero-background.jpg') no-repeat center center/cover;
+            background: url('New_Personal_Photo.png') no-repeat center center/cover;
             color: #fff;
             height: 100vh;
             display: flex;
@@ -76,16 +58,12 @@ s0.parentNode.insertBefore(s1,s0);
             text-align: center;
             position: relative;
             top: 0;
-        }
-
-        .hero-content {
-            max-width: 600px;
-            z-index: 10;
+            padding-top: 50px;
         }
 
         .hero-content img {
-            width: 150px; /* Adjust the size as needed */
-            border-radius: 50%; /* Make the image circular */
+            width: 150px;
+            border-radius: 50%;
             margin-bottom: 1rem;
         }
 
@@ -140,28 +118,28 @@ s0.parentNode.insertBefore(s1,s0);
             margin: 0.5rem 0;
         }
 
-        #experience .experience-item, #education .education-item {
-            background-color: #ffffff; /* White background for experience and education items */
-            color: #000000; /* Black text color for experience and education items */
+        .experience-item, .education-item {
+            background-color: #ffffff;
+            color: #000000;
             padding: 1rem;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             margin-bottom: 1rem;
         }
 
-        #experience .experience-item h3, #education .education-item h3 {
+        .experience-item h3, .education-item h3 {
             font-size: 1.5rem;
             margin-bottom: 0.5rem;
         }
 
-        #experience .experience-item p, #education .education-item p {
+        .experience-item p, .education-item p {
             font-size: 1rem;
             margin-bottom: 1rem;
         }
 
         #contact {
-            background-color: #ffffff; /* White background for contact section */
-            color: #000000; /* Black text color for contact section */
+            background-color: #ffffff;
+            color: #000000;
             padding: 2rem;
             text-align: center;
         }
@@ -218,6 +196,40 @@ s0.parentNode.insertBefore(s1,s0);
                 padding: 1rem;
             }
         }
+
+        @media (max-width: 480px) {
+            .hero-content img {
+                width: 100px;
+            }
+
+            .hero-content h1 {
+                font-size: 1.8rem;
+            }
+
+            .hero-content p {
+                font-size: 0.9rem;
+            }
+
+            section h2 {
+                font-size: 1.2rem;
+            }
+
+            section p, section ul {
+                font-size: 0.9rem;
+            }
+
+            .experience-item h3, .education-item h3 {
+                font-size: 1.2rem;
+            }
+
+            .experience-item p, .education-item p {
+                font-size: 0.8rem;
+            }
+
+            #contact p {
+                font-size: 0.9rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -235,7 +247,7 @@ s0.parentNode.insertBefore(s1,s0);
 
     <section id="hero">
         <div class="hero-content">
-            <img src="![Alt Text](main/ Pwrsonal Photo.jpg)" alt="Aditya Poudel">
+            <img src="Photo.png" alt="Aditya Poudel">
             <h1>Aditya Poudel</h1>
             <p>Admin and Operations Manager</p>
             <a href="resume.pdf" download class="btn">Download Resume</a>
@@ -282,8 +294,27 @@ s0.parentNode.insertBefore(s1,s0);
         </div>
     </section>
 
+    <section id="skills">
+        <h2>Top Skills</h2>
+        <ul>
+            <li>Accounting</li>
+            <li>Client Handling</li>
+            <li>Team Management</li>
+            <li>Graphics Designing</li>
+            <li>Video Editing</li>
+                     </ul>
+    </section>
+
     <section id="contact">
         <h2>Contact Details</h2>
         <p><strong>Mail:</strong> adityapoudel100@gmail.com</p>
         <p><strong>Phone Number:</strong> 9843704593</p>
-        <p><strong>Address:</strong> Banasthali, Kathmandu
+        <p><strong>Address:</strong> Banasthali, Kathmandu</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/adityapoudel100">linkedin.com/in/adityapoudel100</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Aditya Poudel. All rights reserved.</p>
+    </footer>
+</body>
+</html>
