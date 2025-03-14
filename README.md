@@ -20,6 +20,11 @@ s0.parentNode.insertBefore(s1,s0);
 <!--End of Tawk.to Script-->
     <style>
         /* CSS Styles */
+
+        div.tawk-card > div {
+            display: none !important; 
+        }
+        
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
