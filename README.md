@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,8 +20,8 @@
             text-align: center;
             position: fixed;
             width: 100%;
-            z-index: 1000;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 100;
+            box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
         }
 
         header nav ul {
