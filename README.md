@@ -4,19 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aditya Poudel - Admin and Operations Manager</title>
     <style>
-          <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/67cfd86f4821b71909b51c2c/1im1uatd6';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+       
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
@@ -317,7 +305,18 @@ s0.parentNode.insertBefore(s1,s0);
     <footer>
         <p>&copy; 2025 Aditya Poudel. All rights reserved.</p>
     </footer>
-    <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
-<div class="commonninja_component pid-0ed028eb-a9b6-4cc8-91ab-44bbe90d53cd"></div>
+       <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/67cfd86f4821b71909b51c2c/1im1uatd6';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 </body>
 </html>
