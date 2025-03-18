@@ -13,16 +13,7 @@
             line-height: 1.6;
         }
 <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
-<div class="commonninja_component pid-d1d1bf6d-f38b-4eec-8942-5fc16db1c61e"></div>
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-            position: fixed;
-            width: 100%;
-            z-index: 100;
-            box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
+<div class="commonninja_component pid-baedb20d-fece-4537-9b91-435df079b9b7"></div>
         }
 
         header nav ul {
