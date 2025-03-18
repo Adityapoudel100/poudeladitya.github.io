@@ -12,7 +12,8 @@
             color: #ffffff;
             line-height: 1.6;
         }
-
+<script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
+<div class="commonninja_component pid-d1d1bf6d-f38b-4eec-8942-5fc16db1c61e"></div>
         header {
             background-color: #333;
             color: #fff;
