@@ -304,6 +304,7 @@
     <footer>
         <p>&copy; 2025 Aditya Poudel. All rights reserved.</p>
     </footer>
-    
+    <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
+<div class="commonninja_component pid-0ed028eb-a9b6-4cc8-91ab-44bbe90d53cd"></div>
 </body>
 </html>
