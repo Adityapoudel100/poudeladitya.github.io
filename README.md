@@ -12,9 +12,6 @@
             color: #ffffff;
             line-height: 1.6;
         }
-<script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
-<div class="commonninja_component pid-baedb20d-fece-4537-9b91-435df079b9b7"></div>
-        }
 
         header nav ul {
             list-style: none;
@@ -307,5 +304,8 @@
     <footer>
         <p>&copy; 2025 Aditya Poudel. All rights reserved.</p>
     </footer>
+    <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
+<div class="commonninja_component pid-baedb20d-fece-4537-9b91-435df079b9b7"></div>
+        }
 </body>
 </html>
